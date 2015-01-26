@@ -1,4 +1,4 @@
-Repro of Firefox behaviour
+Repro of Firefox back button behaviour when loading iframes and changing their source
 
 * load index.html
 * click on other.html
