@@ -1,0 +1,14 @@
+<html>
+
+<body>
+<!--<iframe id="i-frame" src="one.html"></iframe>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+	$('body').append($("<iframe src='one.html' id='i-frame'><iframe>"));
+	setTimeout(function() {
+		$('#i-frame').attr('src', 'two.html');	
+		$('body').focus();
+	}, 1000);
+</script>
+</body>
+</html>
