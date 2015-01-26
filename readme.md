@@ -1,5 +1,7 @@
 Repro of Firefox back button behaviour when loading iframes and changing their source
 
+Using Firefox:
+
 * load index.html
 * click on other.html
 * note the loading from one.html to two.html
